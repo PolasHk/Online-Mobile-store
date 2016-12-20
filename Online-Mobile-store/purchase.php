@@ -1,0 +1,11 @@
+<?php
+	session_start();
+	if(!isset($_SESSION['id']))
+	{
+			header("location:purchase_login.php");
+	}
+	else
+	{
+			header("location:purchase_home.php");
+	}
+?>
