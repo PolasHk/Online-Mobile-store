@@ -37,7 +37,8 @@
         <h1 id="logotype">My Mobile Store</h1>
         <h2 id="searchForm">
           <font size="+2" color="#006633">
-            <?php
+
+           <?php
             include('connection.php');
             session_start();
             if(isset($_SESSION['id']))
@@ -53,6 +54,7 @@
                 echo "Logout";
               }
               ?>
+           
             </a>
           </font>
         </h2>
